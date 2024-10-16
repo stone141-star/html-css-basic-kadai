@@ -1,0 +1,93 @@
+h1{
+    margin: 0px 0px 0px 0px;
+}
+
+p{
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+a{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h2::before{
+    content: "●";
+    color: rgb(238,204,204);
+}
+
+
+.contents p:nth-of-type(2)::first-letter{
+    font-weight: bold;
+    color: rgb(97,206,249);
+}
+
+#title{
+    margin-bottom: 20px;
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+
+main{
+    margin: 10px 10px 10px 10px;
+}
+
+#parent{
+    display: flex;
+    justify-content: center;
+}
+
+.contents{
+    display: flexbox;
+    border: solid 3px rgb(238,204,204);
+    padding: 10px 15px 10px 15px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+image{
+    margin: 10px 0px 10px 0px;
+    width: 70%;
+}
+
+footer{
+    background-color: rgb(244, 79, 79);
+    text-align: center;
+}
+
+a:link{
+    color: rgb(255,255,255);
+}
+
+a:visited{
+    color: rgb(193,234,251);
+}
+
+a:hover{
+    color: rgb(245,178,168);
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+      font-size: 30px;
+    }
+    
+    p {
+      font-size: 25px;
+    }
+  
+    #parent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
